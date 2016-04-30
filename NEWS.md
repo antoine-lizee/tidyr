@@ -44,7 +44,7 @@
 
 * `gather()` now stores the key column as character, by default. To revert to
   the previous behaviour of using a factor (which allows you to preserve the
-  ordering of the columns), use `key_factor = TRUE` (#96).
+  ordering of the columns), use `factor_key = TRUE` (#96).
 
 * All tidyr verbs do the right thing for grouped data frames created by 
   `group_by()` (#122, #129, #81).
